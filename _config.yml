@@ -1,4 +1,4 @@
 theme: jekyll-theme-cayman
 title: Horace
 description: A ghost story
-image: https://raw.githubusercontent.com/JoeGilvary/Horace/main/assets/images/HoraceCover1280x637.png
+image: ./images/HoraceCover1280x637.png
