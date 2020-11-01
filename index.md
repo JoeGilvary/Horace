@@ -1,5 +1,6 @@
 ## Horace
 
+![photo of an abandoned gas station](/assets/images/HoraceCover1280x637.png)
 
 
 "Is this some kind of joke?" Already at 8:30 a.m., Adam Reynolds' remaining sandy hair was disheveled, his eyes and shoulders locked in an intense drooping competition. The cookout at his brother's place had been wild this past weekend. Adam barely made it home in time to wash up and get here by 8:00. It was probably his brother who thought it'd be funny to send this kid over here at this horrific hour.
