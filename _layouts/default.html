@@ -42,11 +42,10 @@
 {% endif %}
 {% if page.image %}
   <meta property="og:image" content="{{ site.url }}/assets/img/posts/{{ page.image }}">
-  <meta property="twitter:image" content="{{ site.url }}/assets/img/posts/{{ page.image }}">
+  <meta property="twitter:image:src" content="{{ site.url }}/assets/img/posts/{{ page.image }}">
 {% else %}
   <meta property="og:image" content="https://raw.githubusercontent.com/JoeGilvary/Horace/main/assets/images/HoraceCover1280x637.png">
-  <meta property="twitter:image" content="https://raw.githubusercontent.com/JoeGilvary/Horace/main/assets/images/HoraceCover1280x637.png">
-  <meta property="twitter:card" content="https://raw.githubusercontent.com/JoeGilvary/Horace/main/assets/images/HoraceCover1280x637.png">
+  <meta property="twitter:image:src" content="https://raw.githubusercontent.com/JoeGilvary/Horace/main/assets/images/HoraceCover1280x637.png">
 {% endif %}
 {% if page.categories %}
   {% for category in page.categories limit:1 %}
@@ -58,6 +57,7 @@
   <meta content="{{ tag }}" property="article:tag">
   {% endfor %}
 {% endif %}
+  <meta property="twitter:card" content="Horace - A Ghost Story">
   </head>
   <body>
     <header class="page-header" role="banner">
