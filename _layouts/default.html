@@ -40,15 +40,6 @@
   <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
   <meta content="{{ site.url }}/about/" property="article:author">
 {% endif %}
-{% if page.image %}
-  <meta property="og:image" content="{{ site.url }}/assets/img/posts/{{ page.image }}">
-  <meta property="twitter:image:src" content="{{ site.url }}/assets/img/posts/{{ page.image }}">
-{% else %}
-  <meta property="og:image" content="https://raw.githubusercontent.com/JoeGilvary/Horace/main/assets/images/HoraceCover1280x637.png">
-  <meta property="og:image:width" content="1280">
-  <meta property="og:image:height" content="637">
-  <meta property="twitter:image:src" content="./images/HoraceCover1280x637.png">
-{% endif %}
 {% if page.categories %}
   {% for category in page.categories limit:1 %}
   <meta content="{{ category }}" property="article:section">
@@ -59,7 +50,17 @@
   <meta content="{{ tag }}" property="article:tag">
   {% endfor %}
 {% endif %}
-  <meta property="twitter:card" content="Horace - A Ghost Story">
+ 
+  <meta property="og:image" content="https://raw.githubusercontent.com/JoeGilvary/Horace/main/assets/images/HoraceCover1280x637.png">
+  <meta property="og:image:width" content="1280">
+  <meta property="og:image:height" content="637">
+    
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="Horace - A Ghost Story">
+  <meta property="twitter:site" content="@CatChullain">
+  <meta property="twitter:description" content="What do you mean by 'spectral accompaniement?'">
+  <meta property="twitter:image" content="https://raw.githubusercontent.com/JoeGilvary/Horace/main/assets/images/HoraceCover1280x637.png">
+  <meta property="twitter:image:alt" content="Photo of an abandoned gas station">
   </head>
   <body>
     <header class="page-header" role="banner">
